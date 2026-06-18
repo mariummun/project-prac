@@ -3,7 +3,7 @@
     margin : 0;
 }
 
-h1{
+/* h1{
     background-color : cadetblue;
     color : azure;
 }
@@ -13,5 +13,12 @@ p{
     font-size : 25px;
     background-color :brown;
     color : azure;
-}
+} */
 
+.box{
+    height : 100px;
+    width : 100px;
+    background-color: brown;
+    border : 1px solid black;
+    margin : 10px;
+}
