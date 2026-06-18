@@ -1,8 +1,14 @@
 // let heading = document.querySelector("h2");
 // console.dir(heading.append(" with others"));
 
-let div = document.querySelectorAll(".box");
+let divs = document.querySelectorAll(".box");
 
-div[0].innerText = "First hello from the other side";
-div[1].innerText = "Second hello from the other side";
-div[2].innerText = "Third hello from the other side";
+// divs[0].innerText = "hello from the other side 1";
+// divs[1].innerText = "hello from the other side 2";
+// divs[2].innerText = "hello from the other side 3";
+
+let idx = 1;
+for(div of divs){
+    div.innerText = `hello from the other side ${idx}`;
+    idx++;
+}
