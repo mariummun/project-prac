@@ -1,2 +1,2 @@
-let div = document.querySelector("div");
-console.dir(div);
+let heading = document.querySelector("h2");
+console.dir(heading.append(" with others"));
