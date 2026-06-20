@@ -32,10 +32,19 @@
 // let div = document.querySelector("div");
 // div.append(newButton);
 //MORE PRACTICE 
-let newHeading = document.createElement("h1");
-newHeading.innerHTML = "<i>updation</i>";
-
+// let newHeading = document.createElement("h1");
+// newHeading.innerHTML = "<i>updation</i>";
+//
 // let div = document.querySelector("div");
 // div.before(newHeading);
+//
+// document.querySelector("body").before(newHeading);
 
-document.querySelector("body").before(newHeading);
+//PRACTICE (DOM PT2)
+let newButton = document.createElement("button");
+newButton.innerText = "click me!";
+
+newButton.style.backgroundColor = "red";
+newButton.style.color = "white";
+
+document.querySelector("body").prepend(newButton);
