@@ -15,3 +15,5 @@
 
 let para = document.querySelector("p");
 console.log(para.getAttribute("class")); //returns the attribute name of the class
+console.log(para.setAttribute("class", "paragraph-tag")); //changes class = "para" -> class = "paragraph-tag" 
+// (to view it, check elements option in website)
