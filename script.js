@@ -13,7 +13,29 @@
 //     idx++;
 // }
 
-let para = document.querySelector("p");
-console.log(para.getAttribute("class")); //returns the attribute name of the class
-console.log(para.setAttribute("class", "paragraph-tag")); //changes class = "para" -> class = "paragraph-tag" 
+//GET, SET
+// let para = document.querySelector("p");
+// console.log(para.getAttribute("class")); //returns the attribute name of the class
+// console.log(para.setAttribute("class", "paragraph-tag")); //changes class = "para" -> class = "paragraph-tag" 
 // (to view it, check elements option in website)
+
+//STYLING
+// let div = document.querySelector(".box");
+// div.style.backgroundColor = "purple";
+// div.innerText = "This is the updated text";
+
+//INSERT AND REMOVE => FIRST CREATE A NODE AND THEN ADD(FOR INSERTION)
+// let newButton = document.createElement("button");
+// newButton.innerText = "click me!";
+// console.log(newButton);
+
+// let div = document.querySelector("div");
+// div.append(newButton);
+//MORE PRACTICE 
+let newHeading = document.createElement("h1");
+newHeading.innerHTML = "<i>updation</i>";
+
+// let div = document.querySelector("div");
+// div.before(newHeading);
+
+document.querySelector("body").before(newHeading);
