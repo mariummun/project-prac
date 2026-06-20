@@ -6,16 +6,19 @@
 /* h1{
     background-color : cadetblue;
     color : azure;
-}
-
-p{
-    height : 100px;
-    font-size : 25px;
-    background-color :brown;
-    color : azure;
 } */
 
-.box{
+.para{
+    height : 100px;
+    font-size : 25px;
+    color : brown;
+} 
+
+.para2{
+    background-color:aquamarine;
+}
+
+/* .box{
     height : 100px;
     width : 100px;
     background-color: brown;
@@ -23,4 +26,4 @@ p{
     margin : 10px;
     text-align : center;
     color : white;
-}
+} */

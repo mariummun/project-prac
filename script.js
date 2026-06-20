@@ -41,10 +41,13 @@
 // document.querySelector("body").before(newHeading);
 
 //PRACTICE (DOM PT2)
-let newButton = document.createElement("button");
-newButton.innerText = "click me!";
+// let newButton = document.createElement("button");
+// newButton.innerText = "click me!";
 
-newButton.style.backgroundColor = "red";
-newButton.style.color = "white";
+// newButton.style.backgroundColor = "red";
+// newButton.style.color = "white";
 
-document.querySelector("body").prepend(newButton);
+// document.querySelector("body").prepend(newButton);
+
+let paragraph = document.querySelector("p");
+paragraph.classList.add("para2");
