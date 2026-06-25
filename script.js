@@ -40,14 +40,15 @@
 //
 // document.querySelector("body").before(newHeading);
 
-//PRACTICE (DOM PT2)
+//PRACTICE1 (DOM PT2)
 // let newButton = document.createElement("button");
 // newButton.innerText = "click me!";
 
 // newButton.style.backgroundColor = "red";
 // newButton.style.color = "white";
 
+//PRACTICE2 => classList.add() & classList.remove()
 // document.querySelector("body").prepend(newButton);
 
-let paragraph = document.querySelector("p");
-paragraph.classList.add("para2");
+// let paragraph = document.querySelector("p");
+// paragraph.classList.add("para2");
