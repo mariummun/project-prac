@@ -51,4 +51,33 @@
 // document.querySelector("body").prepend(newButton);
 
 // let paragraph = document.querySelector("p");
-// paragraph.classList.add("para2");
+// paragraph.classList.add("para2"); //adds another class inside the element
+
+//Event Object
+// let btn = document.querySelector("#btn");
+
+// btn.onclick = evt =>{
+//     console.log(evt);
+// }
+
+// btn.addEventListener("click", (evt) => {
+//     console.log(evt.target);
+//     console.log(evt.clientX);
+//     console.log(evt.clientY);
+// })
+//PRACTICE
+let mode = document.querySelector("#btn");
+let currMode = "light";
+let body = document.querySelector("body");
+
+btn.addEventListener("click", (evt)=>{
+    if(currMode == "light"){
+        currMode = "dark";
+        body.style.backgroundColor = "black";
+    } else{
+        currMode = "light";
+        body.style.backgroundColor="white";
+    }
+    
+    console.log(currMode);
+})
